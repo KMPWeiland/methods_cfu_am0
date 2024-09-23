@@ -46,9 +46,23 @@
 
 # SECTION 2: Calling methods on variables assigned to strings.
 # Declare 2 variables assigned to string objects.
-# Call a different built-in Ruby method on each of your variables. 
+summer_dessert = "watermelon sorbet"
+autumn_dessert = "apple crisp"
+# Call a different built-in Ruby method on each of your variables.  
 # https://ruby-doc.org/core-3.1.0/String.html
 # Include comments above each method call explaining the impact and return value of that method.
+#Here, the first line declares a variable called summer_dessert
+#The second line declares a variable called autumn_dessert
+#The upcase method is called on the variable summer_dessert, which will capitalize ever letter 
+# The puts command prints the return value of the upcase method (WATERMELON SORBET) to the console.
+puts summer_dessert.upcase
+#The capitalize method is called on the variable autumn_dessert, which will capitalize the first letter
+# The puts command prints the return value of the capitalize method (Apple crisp) to the console.
+puts autumn_dessert.capitalize
+
+
+
+
 
 # EXAMPLE
 # The start_with? method is called on the first_name variable, which stores the string object "Jeff". 
