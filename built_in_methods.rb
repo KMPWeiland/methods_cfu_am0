@@ -81,6 +81,25 @@ puts first_name.start_with?("J")
 # Include comments above each method call explaining the impact and return value of that method.
 
 
+# The first line declares a variable called count_cats and assigns it the value 3.
+# The second line declares a variable called count_dogs and assigns it the value 2.
+# The to_s method is called on the variable count_cats, which converts the integer to a string.
+# The puts command prints the string "You have " concatenated with the return value of the to_s method (which is "3"),
+# followed by " cats." to the console.
+count_cats = 3
+count_dogs = 2
+puts "You have #{count_cats.to_s} cats."
+
+# The next method is called on the variable count_dogs which returns the next integer in numerical order
+# The puts command prints the string "If you had one more dog, you'd have" concatenated with the return value of the next method (which is "3"),
+# followed by " dogs!" to the console.
+count_cats = 3
+count_dogs = 2
+puts "If you had one more dog, you'd have #{count_dogs.next} dogs!"
+
+
+
+
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
