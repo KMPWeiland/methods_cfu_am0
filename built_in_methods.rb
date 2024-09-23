@@ -8,20 +8,38 @@
 # The return value is "hello world"
 "Hello World".downcase
 
-
+#1
 "Hello World".include?("Hello")
+#Here, the include? method is called on the string object "Hello World"
+#Hello is the argument passed to this method call
+#The method checks if the argument "Hello" is include in the string object
+#Since "Hello World" does include "Hello", the method returns true
 
-
+#2
 "Hello World".end_with?("Hello")
+#Here, the end with? method is called on the string object "Hello World"
+#Hello is the argument passed to this method call
+#The method checks if the string object ends with the argument "Hello"
+#Since "Hello World" does NOT end with "Hello", the method returns false
 
 
 "Hello World".end_with?("rld")
-
+#Here, the end with? method is called on the string object "Hello World"
+#rld is the argument passed to this method call
+#The method checks if the string object ends with the argument "rld"
+#Since "Hello World" does end with "rld",  the method returns true
 
 12.even?
+#Here, the even? method is called on the integer 12
+# No arguments are passed; the even? method checks if the integer is even and returns true if it is, otherwise false.
+#Since 12 is indeed even, the method returns true
 
 
 18.next
+#Here the next method is called on the integer 18
+#No arguments are passed; next returns the next integer in numerical order.
+#Since 19 comes after 18, the method returns 19
+
 
 
 
