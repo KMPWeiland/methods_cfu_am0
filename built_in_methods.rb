@@ -98,11 +98,25 @@ count_dogs = 2
 puts "If you had one more dog, you'd have #{count_dogs.next} dogs!"
 
 
-
-
-
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+plant_types_arr = ["Monstera", "Pothos", "Snake plant"] 
+water_days_arr = ["Mon", "Fri", "Sun"]
+# The first line declares a variable plant_types_arr and assigns it an array containing three string elements.
+# The second line declares a variable water_days_arr and assigns it an array containing three string elements.
+# The count method is called on the array plant_types_arr, which counts the number of elements in the array and returns that value as an integer (3).
+# The join method is also called on the same array. The argument passed to join (", ") specifies that the items in the array should be separated by a comma and a space.
+# The puts command prints the string "You have " concatenated with the return value of the count method (which is "3"),
+# followed by " different types of plants. They are " concatenated with the return value of the join method, which lists the array elements as a single string.
+puts "You have #{plant_types_arr.count} different types of plants. They are #{plant_types_arr.join(", ")}."
+
+# The include? method is called on the water_days_arr array.
+# The argument passed to include? ("Mon") checks if "Mon" is included in the array.
+# The puts command prints the return value of the include? method, which is true because "Mon" is included in water_days_arr.
+puts water_days_arr.include?("Mon")
+
+
+
