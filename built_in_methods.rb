@@ -84,14 +84,14 @@ puts first_name.start_with?("J")
 # The first line declares a variable called count_cats and assigns it the value 3.
 # The second line declares a variable called count_dogs and assigns it the value 2.
 # The to_s method is called on the variable count_cats, which converts the integer to a string.
-# The puts command prints the string "You have " concatenated with the return value of the to_s method (which is "3"),
+# The puts command prints the string "You have " interpolated with the return value of the to_s method (which is "3"),
 # followed by " cats." to the console.
 count_cats = 3
 count_dogs = 2
 puts "You have #{count_cats.to_s} cats."
 
 # The next method is called on the variable count_dogs which returns the next integer in numerical order
-# The puts command prints the string "If you had one more dog, you'd have" concatenated with the return value of the next method (which is "3"),
+# The puts command prints the string "If you had one more dog, you'd have" interpolated with the return value of the next method (which is "3"),
 # followed by " dogs!" to the console.
 count_cats = 3
 count_dogs = 2
@@ -109,8 +109,8 @@ water_days_arr = ["Mon", "Fri", "Sun"]
 # The second line declares a variable water_days_arr and assigns it an array containing three string elements.
 # The count method is called on the array plant_types_arr, which counts the number of elements in the array and returns that value as an integer (3).
 # The join method is also called on the same array. The argument passed to join (", ") specifies that the items in the array should be separated by a comma and a space.
-# The puts command prints the string "You have " concatenated with the return value of the count method (which is "3"),
-# followed by " different types of plants. They are " concatenated with the return value of the join method, which lists the array elements as a single string.
+# The puts command prints the string "You have " interpolated with the return value of the count method (which is "3"),
+# followed by " different types of plants. They are " interpolated with the return value of the join method, which lists the array elements as a single string.
 puts "You have #{plant_types_arr.count} different types of plants. They are #{plant_types_arr.join(", ")}."
 
 # The include? method is called on the water_days_arr array.
